@@ -1,0 +1,16 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "webserver to store a set of people records",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Derek Fisher",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "start": "^5.1.0"
+  }
+}
