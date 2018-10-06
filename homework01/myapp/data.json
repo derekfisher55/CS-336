@@ -1,0 +1,26 @@
+[
+    {
+    "first": "Bill", 
+    "last": "Gates", 
+    "ID": "billyg", 
+    "startDate": "1979/10/29"
+    },
+    {
+    "first": "Barack", 
+    "last": "Obama", 
+    "ID": "bobama", 
+    "startDate": "2008/11/02"
+    },
+    {
+    "first": "Abe", 
+    "last": "Lincoln", 
+    "ID": "honestabe", 
+    "startDate": "1846/06/30"
+    },
+    {
+    "first": "Albert",
+    "last": "Einstein",
+    "ID": "lawofrel", 
+    "startDate": "1950/10/30"
+    },
+]
