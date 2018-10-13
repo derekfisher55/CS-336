@@ -1,0 +1,31 @@
+Identify the request methods that you can and can’t test using the two tools listed above.
+If a method cannot be testing using a particular tool, explain why this is the case.
+List the Curl commands you used successfully.
+
+  - You can only see the GET method using the dev tools, unless you use your form to send a POST request.
+    This is because the browser is really only designed to GET data rather than the other methods.
+  - Using curl, you can GET, POST, DELETE, PUT, HEAD.
+  - I was able to use:
+      curl -X GET localhost:3000/request
+      curl -X POST localhost:3000/request -d {arg:"Hello!"} -H 'Content-Type: application/json'
+      curl localhost:3000/request -I
+      curl -X PUT localhost:3000/request -d {arg:"Hello"} -H 'Content-Type: application/json'
+
+What is the most appropriate HTTP response code for pages that aren’t defined by an Express route?
+
+  - the default 404 not found error.
+
+What HTTP methods do forms support?
+
+  - forms only support the GET and POST methods.
+
+How is the form data being passed back to the server and what syntactic form does it take?
+Is the data modified in any way?
+
+  - The data looks like so:
+      user_name=Bill+Gates&user_mail=billy_g%40hotmail.com&user_message=Hello+World%21
+
+  - The server receives a string that will be parsed in order to get the data as a list of key/value pairs.
+    The way you access this list depends on the development platform you use and on any specific frameworks you may be using with it.
+    The technology you use also determines how duplicate keys are handled; often,
+    the most recently received value for a given key is given priority.
