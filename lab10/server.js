@@ -63,6 +63,5 @@ MongoClient.connect(mongoURL, function (err, client) {
   });
   db.collection("Comments").find({}).toArray(function(err, docs) {
       if (err) throw err;
-      res.json(docs);
   });
 });
