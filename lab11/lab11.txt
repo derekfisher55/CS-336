@@ -16,3 +16,6 @@ b)  List the optimizations you’ve configured for this production version and,
     Webpack will analyze and prioritize often used modules assigning them the smallest ids."
 
     
+Domain:
+
+Your app can be found at https://lab11-cs336.herokuapp.com/
