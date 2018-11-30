@@ -1,0 +1,18 @@
+Lab 11 Questions:
+
+a)  Compare and contrast your development and production deployments
+    and explain how each is designed.
+    The production deployment adds a few plugins that increase the efficiency
+    of the server. For example I added, UglifyJsPlugin which helps increase the
+    speed of loading JavaScript by compressing and minifying the code. The
+    production deployment also removes the dev server as it shouldn't be needed
+    in a production deployment.
+
+b)  List the optimizations you’ve configured for this production version and,
+    if possible, find evidence of then in the deployed application files.
+    As mentioned before, we added UglifyJsPlugin which you can see in the web-pack
+    that the JavaScript has changed to the "ugly" version. We also added the
+    OccurenceOrderPlugin which according to the website, "With this plugin,
+    Webpack will analyze and prioritize often used modules assigning them the smallest ids."
+
+    
