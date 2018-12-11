@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {Router, Route, browserHistory} from 'react-router';
 
 import CommentBox from './CommentBox.js';
-import CommentEdit from './CommentEdit.js';
+import CommentEdit from './commentEdit.js';
 
 import '../css/base.css';
 
