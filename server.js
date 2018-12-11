@@ -69,7 +69,7 @@ app.put('/api/comments/:id', function(req, res) {
         { $set: update },
         function(err, result) {
             if (err) throw err;
-            db.collection("comments").find({}).toArray(function(err, docs) {
+            db.collection("Comments").find({}).toArray(function(err, docs) {
                 if (err) throw err;
                 res.json(docs);
             });
