@@ -1,4 +1,4 @@
-This sample code supports Calvin College
+sThis sample code supports Calvin College
 [CS 336](https://cs.calvin.edu/courses/cs/336/kvlinden)
 [Unit 8: React](https://cs.calvin.edu/courses/cs/336/kvlinden/08react/index.html).
 
@@ -10,4 +10,3 @@ the comment list:
 
 The completed lab exercise will serve as the basis for the application built in
 the "Application" section of the course.
-

@@ -1,8 +1,8 @@
 import React from 'react';
 import $ from 'jquery';
 
-import CommentList from './commentList';
-import CommentForm from './commentForm';
+import CommentList from './CommentList.js';
+import CommentForm from './CommentForm.js';
 import { API_URL, POLL_INTERVAL } from './global';
 
 module.exports = React.createClass({
