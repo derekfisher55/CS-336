@@ -1,0 +1,20 @@
+body {
+  font-family: 'Lucida Console', sans-serif;
+}
+
+label {
+  display: inline-block;
+  width: 130px;
+}
+div {
+  margin-bottom: 8px;
+}
+
+
+.button {
+  margin-top: 15px;
+}
+
+.info {
+  white-space: pre-wrap;
+}
